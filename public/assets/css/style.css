@@ -1,8 +1,17 @@
 li {
     padding: 5px;
-    margin: 5px;
-    background: #faebd7;
+    margin: 5px 30%;
+    border: 2px solid black;
+    border-radius: 10px;
+    list-style: none;
+    background-color: #E9D8A3;
   }
+
+ button {
+   border-radius: 5px;
+   padding: 4px;
+   font-size: 18px;
+ } 
   
   .label {
     font-weight: bold;
@@ -12,6 +21,7 @@ li {
     padding: 5px;
     margin: 5px;
     background: aqua;
+    margin: 0 8px;
   }
   
   .form-group {
@@ -19,6 +29,7 @@ li {
   }
 
   body {
-    background-color: orange;
+    background-color: rgb(252, 182, 3);
+    text-align: center;
   }
   
