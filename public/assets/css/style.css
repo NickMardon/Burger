@@ -5,17 +5,35 @@ li {
     border-radius: 10px;
     list-style: none;
     background-color: #E9D8A3;
+    font-family: 'Titillium Web', sans-serif;
+
   }
 
  button {
    border-radius: 5px;
-   padding: 4px;
+   padding: 2px;
    font-size: 18px;
+   font-family: 'Titillium Web', sans-serif;
  } 
+
+ h1 {
+  font-family: 'Ranchers', cursive;
+  letter-spacing: 2px;
+  font-size: 60px;
+ }
+
+ label {
+  font-family: 'Titillium Web', sans-serif;
+ }
   
   .label {
-    font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
   }
+
+ input {
+   height: 16px;
+ }
   
   .create-update-form {
     padding: 5px;
@@ -31,5 +49,9 @@ li {
   body {
     background-color: rgb(252, 182, 3);
     text-align: center;
+  }
+
+  #submit {
+    margin-top: 14px;
   }
   
